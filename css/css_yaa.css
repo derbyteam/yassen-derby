@@ -1,0 +1,678 @@
+/* footer */
+.center5 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+
+}
+ .center5 a{
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+}
+ .center5 a:link, .center5 a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+ .center5 a:hover,body.yaa1 .center5 a:active{
+    color:blue;
+    text-decoration: none;
+}
+div.footer{
+    background-color: #000;
+   position: relative;
+    width: 100%;
+
+}
+
+/* derby 1 Bundesliga */
+ body.yaa1{
+    background-image:url("../media/images_yaa/990px-Bundesliga-Logo-2012.png");
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: right;
+    direction: rtl; 
+
+}
+/*bar*/
+body.yaa1 nav .logo{
+    float: left;
+    padding-left: 47px;
+    width: 182px;
+    height: 69px;
+    }
+body.yaa1  nav{
+    position: absolute;
+    list-style-type: none;
+    display: inherit;
+    padding: 4px;
+    background-color:  #bb0000; ;
+  
+    top: 0;
+    right: 0%;
+    left: 0;
+  }
+body.yaa1  nav ul{
+  float: right;
+  margin-right: 30px;
+  }
+body.yaa1  nav ul li{
+  display: inline-block;
+  }
+  body.yaa1 nav ul li a{
+   color: #fff;
+   text-decoration: auto;
+    display: block;
+    padding: 1px 60px;
+    font-family: cursive;
+    transition: .5s;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    opacity: 0.9; 
+    text-align: center;
+  
+  }
+  
+  body.yaa1 nav ul li a:hover,
+  body.yaa1  nav ul li a.active{
+  color: #fff;
+  }
+ body.yaa1 nav ul ul{
+    list-style: disc;
+    font-variant-caps: all-small-caps;
+    position: absolute;
+    top: 78px;
+    opacity: 0.5;
+    font-size: x-large;
+    visibility: hidden;
+    background-color: #cc0000;
+
+
+  }
+  body.yaa1 nav ul li:hover > ul{
+  top: auto;
+  opacity: 1;
+  visibility: visible;
+  transition: .3s linear;
+  }
+  body.yaa1 nav ul ul li{
+   width: auto;
+    display: list-item;
+    list-style-position: outside;
+    position: relative;
+   
+   
+  }
+  body.yaa1  nav ul ul li:hover{
+      background-color: #990000;
+  }
+  
+
+/*bargggggggggggggggggg*/
+
+body.yaa1 img.dark{
+    visibility: visible;
+    float: right;
+  
+}
+body.yaa1 img.light{
+    visibility: hidden;
+    float: right;
+   
+}
+body.yaa1 p{
+     font-size:large;
+}
+body.yaa1 img.dr3{
+    float: left;
+    width: 400px;
+   
+    
+}
+body.yaa1 img.dr3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+body.yaa1 p.bayern{
+    text-align: center;
+    font-size: 30px;
+}
+body.yaa1 img.bayern{
+    margin-right: 30%;
+    width: 40%;
+}
+body.yaa1 video.baych{
+    margin-right: 25%;
+    width:50% ;
+}
+body.yaa1 table{
+    display: inline-block;
+    border: 2px solid black;
+    color: red;
+    background-color: #fff;
+    border-collapse: collapse;
+    text-align: center;
+     margin-right: 100px;  
+    
+    
+}
+body.yaa1 th,body.yaa1 td{
+    border: 2px solid black ;
+    text-align: center;
+    padding: 20px;
+
+}
+body.yaa1 tr:hover{
+    background-color: #eee;
+}
+body.yaa1 table.most td img{
+    width: 350px;
+    height: 200px;
+    
+}
+body.yaa1 table.record td a img{
+    width: 160px;
+}
+body.yaa1 video.goal_record{
+    /* margin-right:25% ; */
+    width: 50%;
+    border: 2px solid black;
+}
+body.yaa1 video.vid1{
+    margin-right: 5%;
+}
+body.yaa1 video.vid2{
+    margin-right: 25%;
+}
+body.yaa1 video.vid3{
+    margin-right:45% ;
+}
+
+body.yaa1 div.goaler{
+    padding: 20px;
+    border:2px solid black ;
+    background-color: #efefef;
+    font-size: 50px;
+    display: inline-block;
+    color: red;
+    margin-right: 100px;
+    width:825px ;
+}
+body.yaa1 div.goaler div{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+
+}
+body.yaa1 div.goaler p{
+    font-size: 30px;
+    margin-right: 360px;
+}
+body.yaa1 div.goaler img{
+    margin-right:30% ;
+    width: 40%;
+    border: 1px solid black;
+}
+body.yaa1 div.goaler table{
+    font-size: large;
+    text-align: center;
+    margin-right: 0%;
+    
+}
+body.yaa1 iframe{
+    margin-right: 20%;
+    width: 60%;
+    height: 500px;
+}
+body.yaa1 ol.clups{
+    margin-right: 85px;
+    
+}
+body.yaa1 ol.clups a{
+    display: inline-block;
+    margin-bottom:20px ;
+}
+body.yaa1 ol.clups a:link{
+    color: #000;
+    font-size: x-large;
+    text-decoration: underline; 
+    
+ 
+}
+body.yaa1 ol.clups a:visited{
+    text-decoration: overline;
+    color: #222;
+    font-size: x-large; 
+}
+body.yaa1 ol.clups a:hover,body.yaa1 ol.clups a:active{
+    color: #0000ff;
+    text-decoration: underline;
+    font-size: x-large; 
+}
+body.yaa1 ol.clups li{
+    padding: 20px;
+    margin-left:85%;
+    border: 2px solid red;
+    background-color: #fff;
+    text-align: center;
+    height: 220px;
+    width:200px ;
+}
+body.yaa1 ol.clups a li img {
+    width: 120px;
+  
+}
+
+body.yaa1 table.current tr {
+    width: 100px;
+   font-size: large;
+}
+body.yaa1 table.current tr td a img,body.yaa1 table.current tr td img
+{
+    width: 150px; 
+}
+
+ 
+
+
+
+
+
+
+/******************************
+*******************************
+*******************************
+*******************************
+******************************/
+/* derby 2 caf */
+body.yaa2 {
+    background-image: url("../media/images_yaa/caf_logo.png");
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    text-align: right;
+    direction: rtl;
+}
+    /* baaaaaaaar */
+body.yaa2 nav .logo{
+        float: left;
+        padding-left: 47px;
+        width: 182px;
+        height: 69px;
+        }
+body.yaa2  nav{
+        position: absolute;
+        list-style-type: none;
+        display: inherit;
+        padding: 4px;
+        background-color: #111;
+        /* #145529ad */
+        top: 0;
+        right: 0%;
+        left: 0;
+      }
+body.yaa2  nav ul{
+      float: right;
+      margin-right: 30px;
+      }
+body.yaa2  nav ul li{
+      display: inline-block;
+      }
+body.yaa2 nav ul li a{
+       color: #fff;
+       text-decoration: auto;
+        display: block;
+        padding: 1px 60px;
+        font-family: cursive;
+        transition: .5s;
+        font-weight: bold;
+        font-size: 20px;
+        letter-spacing: 1px;
+        opacity: 0.9; 
+        text-align: center;
+      
+      }
+      
+body.yaa2 nav ul li a:hover,
+body.yaa2  nav ul li a.active{
+      color: #fff;
+      }
+body.yaa2 nav ul ul{
+        list-style: disc;
+      
+        font-variant-caps: all-small-caps;
+        position: absolute;
+        top: 78px;
+        opacity: 0;
+        font-size: x-large;
+        visibility: hidden;
+        background-color:#222 ;
+        /* #3f963f */
+      }
+body.yaa2 nav ul li:hover > ul{
+      top: auto;
+      opacity: 1;
+      visibility: visible;
+      transition: .3s linear;
+      }
+body.yaa2 nav ul ul li{
+       width: auto;
+        display: list-item;
+        list-style-position: outside;
+        position: relative;
+       
+      }
+body.yaa2  nav ul ul li:hover{
+          background-color: #990000;
+      }
+body.yaa2 img.dark{
+        float: right;
+        margin-left: 30PX;}
+body.yaa2 img.light{
+            visibility: hidden;
+            float: right;
+}
+       
+  /* baaaaaaaaaaaaaar */
+      
+
+body.yaa2 p{
+    font-size:large;
+}
+body.yaa2 img.caf_intro{
+    width: 50%;
+    margin-right:25% ;
+    border: 1px solid black;
+}
+body.yaa2 p.last{
+    color: #000;
+    text-decoration: underline;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body.yaa2 p.last:hover{
+    color: darkred;
+    text-decoration: none;
+}
+body.yaa2 img.last{
+    width: 40%;
+    margin-right: 30%;
+    border: 1px solid black;
+}
+body.yaa2 video.last{
+    margin-right: 20%;
+    width: 60%;
+    border: 1px solid black;
+}
+body.yaa2 h3.most{
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+    background-color: #ddd;
+}
+body.yaa2 h5.most{
+    font-size: large;
+    display: inline;
+}
+body.yaa2 p.most{
+    display: inline;
+}
+body.yaa2 img.most{
+    margin-left: 20%;
+    float: left;
+    width: 150px;
+    display: inline;
+}
+body.yaa2 img.most:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+body.yaa2 hr{ 
+    width: 80%;
+    text-align: center;
+}
+body.yaa2  a.record{
+    border: 1px solid black;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    color: #000;
+    margin-right: 25px;
+    margin-bottom: 25px ;
+
+}
+ body.yaa2 a.record:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+} 
+body.yaa2 a.record div.hide{
+    display: none;
+}
+body.yaa2 a.record:hover div.vis{
+    display: none;
+}
+body.yaa2 a.record:hover div.hide{
+    display: inline-block;
+}
+
+body.yaa2 a.record h1{
+
+    text-align: center;
+    display: inline-block;
+
+}
+body.yaa2 a.record  img{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+}
+
+body.yaa2 a.record p{
+    
+    font-size: x-large;
+    display: inline-block;
+
+}
+body.yaa2 a.record .ahly,body.yaa2 a.ahly:hover{
+    background-color: #990000;
+}
+body.yaa2 a.record .sun{
+    background-color: yellow;
+}
+body.yaa2 a.zamalek:hover {
+background-color: white
+}
+body.yaa2 a.kaizer:hover{
+    background-color: darkgoldenrod;
+}
+body.yaa2 a.record .est,body.yaa2 a.est:hover{
+    background-color:rgb(240, 149, 45) ;
+}
+body.yaa2 a.wydad:hover,body.yaa2 a.record .wydad{
+background-color: red;
+}
+body.yaa2 a.record .maz{
+background-image: url('../media/images_yaa/maz_back.jpeg');
+background-size: cover;
+color: #444 ;
+}
+body.yaa2 a.ug:hover{
+background-image: url('../media/images_yaa/USM_back.jpeg');
+background-size: cover;
+color: #fff;
+}
+body.yaa2 a.record .setif{
+    background-color: #ddd;
+}
+body.yaa2 a.vita:hover{
+    background-color: green;
+}
+body.yaa2 a.orlando:hover{
+    background-color: #000;
+    color: white;
+}
+body.yaa2 a.record img.est,
+body.yaa2 a.record img.kaizer{
+    width: 200px;
+}
+body.yaa2 a.record img.sun{
+width: 250px;
+}
+
+body.yaa2 div.scorer{
+    width: 80%;
+    height: 300px;
+    margin-right: 10%;
+    background-color: #fff;
+    overflow: scroll;
+    font-size: xx-large;
+    border: 2px solid black;
+
+}
+body.yaa2 div.scorer table{
+   border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+body.yaa2 div.scorer table tr.h{
+    position: sticky;
+    top: 0;
+    background-color: #bbb;
+}
+body.yaa2 div.scorer table th{
+    height: 50px;
+    border-bottom: 1px solid gray;
+
+}
+body.yaa2 div.scorer table td{
+    border-bottom: 1px solid gray;
+    height: 250px;
+}
+
+body.yaa2 div.scorer table td img{
+    width: 120px;
+}
+body.yaa2 h2.goalerh{
+    text-align: center;
+    background-color: #ddd;
+    font-size: xx-large;
+}
+body.yaa2 h3.goalerh{
+    font-size: x-large;
+    display: inline;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 42%;
+
+}
+body.yaa2 img.goaler{
+    float: left;
+    margin-left: 200px;
+    width: 250px;
+
+}
+body.yaa2 img.goaler:hover{
+transform: scale(1.3);
+transition: 1s;
+}
+body.yaa2 .goaler{
+    display: inline;
+    font-size: x-large;
+}
+body.yaa2 table.goaler{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: #fff;
+    margin-right: 100px;
+    border-collapse: collapse;
+    text-align: center;
+}
+body.yaa2 table.goaler  th,body.yaa2 table.goaler td{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+body.yaa2 table.goaler  th:hover,body.yaa2 table.goaler td:hover{
+    background-color: #eee;
+}
+body.yaa2 h3.video{
+    text-align: center;
+    background-color: #eee;
+    font-size: xx-large;
+}
+body.yaa2 p.video{
+    text-align: center;
+    font-size: x-large;
+}
+body.yaa2 video.video{
+    margin-right: 20%;
+    width: 60%;
+}
+body.yaa2 img.current{
+    width: 70%;
+    margin-right: 15%;
+}
+body.yaa2 pre.current{
+    text-align: center;
+    margin-right: 100px;
+    font-size: xx-large;
+}
+body.yaa2 pre.current:hover{
+    color: blue;
+}
+body.yaa2 pre.photo{
+    margin-right: 190px;
+    display: none; 
+}
+body.yaa2 pre.photo img{
+    width: 150px;
+    margin: 20px;
+    
+}
+body.yaa2 table.current{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: x-large;
+    background: #111;
+    color: white;
+    width: 50%;
+    margin-right: 25%;
+    border:5px solid #111 ;
+}
+body.yaa2 table.current tr:nth-child(even){
+    background-color: #222;
+}
+body.yaa2 table.current tr:hover{
+    background-color: #666;
+    
+}
+body.yaa2 table.current th{
+    color: black;
+    background-color: #ddd;
+    border-bottom: 1px solid #ddd;
+}
+body.yaa2 table.current td{
+    border-bottom: 1px solid #ddd;
+}
+
+
+body.yaa2 hr.footer{
+      width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+    
+    
